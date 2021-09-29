@@ -71,4 +71,12 @@ from math import sqrt (importa a biblioteca matematica ESPECIFICA)
       sqrt (raiz quadrada)
       factorial (Fatorial)
 
+import random => Exibe a informação de forma Randomica (o PC escolhe)
+random.choice = Esse escolhe um aleatorio
+random.shuffle = Esse exibe todos mas troca as ordens
+
+print('O aluno escolhido foi = {:=^11}.'.format(random.choice(alunos)))
+
+
+
 
