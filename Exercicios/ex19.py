@@ -7,9 +7,9 @@ n2 = input('Escreva o nome 2: ')
 n3 = input('Escreva o nome 3: ')
 n4 = input('Escreva o nome 4: ')
 alunos = (n1, n2, n3, n4)
-print('O aluno escolhido foi = {}.'.format(random.choice(alunos)))
+print('O aluno escolhido foi = {:=^11}.'.format(random.choice(alunos)))
 
-#Jeito do professor
+'''#Jeito do professor
 
 from random import choice
 n1 = input('Primeiro Aluno: ')
@@ -18,4 +18,4 @@ n3 = input('Terceiro Aluno: ')
 n4 = input('Quarto Aluno: ')
 lista = [n1, n2, n3, n4]
 escolhido = choice(lista)
-print('O aluno escolhido foi = {}.'.format(escolhido))
+print('O aluno escolhido foi = {}.'.format(escolhido))'''
