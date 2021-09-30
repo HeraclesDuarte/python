@@ -9,6 +9,7 @@ n3 = input('Escreva o nome do aluno 3: ')
 n4 = input('Escreva o nome do aluno 4: ')
 lista = [n1, n2, n3, n4]
 escolhido = random.shuffle(lista)
+# random.shuffle(lista)
 print('... A Ordem sorteada então será = {}.'.format(lista))
 
 # #Jeito do Professsor
