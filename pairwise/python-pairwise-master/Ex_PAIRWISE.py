@@ -11,15 +11,14 @@ Demo of the basic functionality - just getting pairwise/n-wise combinations
 
 
 parameters = [["Masculino", "Feminino"]
-    , ["Win 7", "Win 8", "Win 10", "Linux"]
-    , ["Network", "Modem", "Wifi"]
-    , ["Salario", "Hora", "Part-Time"]
-    , ['6h, 10h, 15h, 30h, 60h']]
+            , ["Win 7", "Win 8", "Win 10", "Linux"]
+            , ["Network", "Modem", "Wifi"]
+            , ["Salario", "Hora", "Part-Time"]
+            , ['6h, 10h, 15h, 30h, 60h']
+            , ['VERDADEIRO, FALSO']]
 
 pairwise = all_pairs(parameters)
 
 print("PAIRWISE:")
 for i, v in enumerate(pairwise):
     print("%i:\t%s" % (i, str(v)))
-
-
