@@ -10,12 +10,12 @@ Demo of the basic functionality - just getting pairwise/n-wise combinations
 # http://www.stsc.hill.af.mil/consulting/sw_testing/improvement/cst.html
 
 
-parameters = [["Masculino", "Feminino"]
+parameters = [["x", "y"]
             , ["Win 7", "Win 8", "Win 10", "Linux"]
             , ["Network", "Modem", "Wifi"]
             , ["Salario", "Hora", "Part-Time"]
-            , ['6h, 10h, 15h, 30h, 60h']
-            , ['VERDADEIRO, FALSO']]
+            , [6, 10, 15, 30, 60]
+            , ['MASCULINO', 'FEMININO', 'BINARIO']]
 
 pairwise = all_pairs(parameters)
 

@@ -14,7 +14,7 @@ parameters = [["Performance_Antigo", "Performance_Beta"]
             , ["Ingles", "Espanhol", "Portugues"]
             , ["Mozila", "EDGE", "Chrome"]
             , ["TODOS_PARAMETROS_HABILITADOS", "TODOS_PARAMETROS_DESABILITADOS"]
- #           , ['ADM, USER, BASICO']
+            , ['ADM, KEY-USER, SINGLE USER']
             , ['APENAS_PERFORMANCE_ANTIGO_LIGADO, APENAS_PERFORMANCE_BETA_LIGADO']]
 
 pairwise = all_pairs(parameters)
