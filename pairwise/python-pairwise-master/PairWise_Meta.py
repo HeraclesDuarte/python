@@ -10,12 +10,11 @@ Demo of the basic functionality - just getting pairwise/n-wise combinations
 # http://www.stsc.hill.af.mil/consulting/sw_testing/improvement/cst.html
 
 
-parameters = [["Performance_Antigo", "Performance_Beta"]
+parameters = [["Performance_Antigo", "Performance_NOVO"]
+            , ["Os_dois_HABILITADOS", "Os_Dois_DESABILITADOS", "Apenas_Novo_habilitado", "Apenas_Antigo_Habilitado"]
             , ["Ingles", "Espanhol", "Portugues"]
             , ["Mozila", "EDGE", "Chrome"]
-            , ["TODOS_PARAMETROS_HABILITADOS", "TODOS_PARAMETROS_DESABILITADOS"]
-            , ['ADM, KEY-USER, SINGLE USER']
-            , ['APENAS_PERFORMANCE_ANTIGO_LIGADO, APENAS_PERFORMANCE_BETA_LIGADO']]
+             , ['ADM, KEY_USER, SINGLE_USER']]
 
 pairwise = all_pairs(parameters)
 
