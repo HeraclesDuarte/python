@@ -48,9 +48,27 @@ frase.lower() = o lower significa minusculo trocar o que esta em CAIXA ALTA para
 
 frase.capitalize() = transforma tudo em minusculo da String e mantem só a PRIMEIRA LETRA EM MAIUSCULA da frase
 
-frase.capitalize() = transforma tudo em minusculo da String e mantem só a PRIMEIRA LETRA EM MAIUSCULA de CADA PALAVRA
+frase.title() = transforma tudo em minusculo da String e mantem só a PRIMEIRA LETRA EM MAIUSCULA de CADA PALAVRA
 
 
+# DIVISÃO DE STRING
+
+frase.split() tem variss funcionalidades mas basicamente = Ele vai dividir a String tirando os espaços e passando
+              a considerar cada palavra como se fosse uma frase e reiniciando os indices / numeração de cada caracter
+                ==> ver minuto 26:45 do curso
+
+'-'.join(frase) = Depois que eu faço o split eu posso fazer o 'join' neste caso usando o caracter '-'
+                  neste caso ficaria assim "Curso-em-Video-Python"
+
+
+# mudando a string agora para
+# frase='___Aprenda Python__' com espaços em branco antes e depois da Strin
+
+frase.strip() = remove TODOS os espaços inuteis antes e depois da string
+
+frase.rstrip() = remove TODOS os espaços inuteis à DIREITA (no fim) Depois da string por conta do "R" antes do strip
+
+frase.lstrip() = remove TODOS os espaços inuteis à ESQUERDA (no INICIO) da string por conta do "L" antes do strip
 
 
 
