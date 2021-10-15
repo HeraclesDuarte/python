@@ -46,7 +46,7 @@ print('23 = Existe vídeo dentro da frase em minusculo? só que usando a funçã
 
 print('24 = Dividido usando o comando split = ', (frase2.split()))
 
-print('25 = Dividido mostrando apenas o dividido ZERO da minha lista que é o primeiro item da minha lista = ', (dividido[0]))
+print('25 = Dividido mostrando apenas o dividido ZERO da minha lista que é o primeira item letra da minha lista = ', (dividido[0]))
 
 print('26 = Agora dentro do Dividido eu quero mostrar a posição 2 da minha lista = ', (dividido[2]))
 
