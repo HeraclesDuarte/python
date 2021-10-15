@@ -11,11 +11,11 @@ Demo of the basic functionality - just getting pairwise/n-wise combinations
 
 
 parameters = [["x", "y"]
-            , ["Win 7", "Win 8", "Win 10", "Linux"]
-            , ["Network", "Modem", "Wifi"]
-            , ["Salario", "Hora", "Part-Time"]
-            , [6, 10, 15, 30, 60]
-            , ['MASCULINO', 'FEMININO', 'BINARIO']]
+               , ["Win 7", "Win 8", "Win 10", "Linux"]
+              , ["Network", "Modem", "Wifi"]
+              , ["Salario", "Hora", "Part-Time"]
+              , [6, 10, 15, 30, 60]]
+             # , ['MASCULINO', 'FEMININO', 'BINARIO']]
 
 pairwise = all_pairs(parameters)
 
