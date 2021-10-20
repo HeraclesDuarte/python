@@ -8,9 +8,9 @@
 # e que funcione para numeros menores
 # --------JEITO 1 DÁ ERRO COM MENOS UNIDADES --------------
 # numero = int(input('Informe um numero: '))
-numero = str(input('Informe um numero: '))
 # n = str(numero)
 print('\nAnalisando o número...')
+numero = str(input('Informe um numero: '))
 # print('Quantas numeros = ',len(n))
 
 print('\nUnidade = {}'.format(numero[3]))
