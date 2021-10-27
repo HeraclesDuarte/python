@@ -9,10 +9,10 @@
 # --------JEITO 1 DÁ ERRO COM MENOS UNIDADES --------------
 # numero = int(input('Informe um numero: '))
 # n = str(numero)
-print('\nAnalisando o número...')
+
 numero = str(input('Informe um numero: '))
 # print('Quantas numeros = ',len(n))
-
+print('\nAnalisando o número...')
 print('\nUnidade = {}'.format(numero[3]))
 print('Dezena = {}'.format(numero[2]))
 print('Centena = {}'.format(numero[1]))
