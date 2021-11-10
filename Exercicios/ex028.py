@@ -14,6 +14,7 @@
 # numero = (n0, n1, n2, n3, n4, n5)
 # print('O numero Digitado = {}.'.format(usuario))
 # print('O numero pensado foi = {}.'.format(random.choice(numero)))
+
 # if usuario == numero:
 #     print('Você Venceu')
 # else:
