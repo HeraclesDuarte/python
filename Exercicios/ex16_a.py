@@ -1,4 +1,7 @@
-import math
+# Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+
+
+
 num = float(input('Digite um numero: '))
 num2 = math.floor(num)
 print('O numero {} tem a parte inteira igual a : {}'.format(num, math.trunc(num2)))

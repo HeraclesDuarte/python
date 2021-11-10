@@ -151,6 +151,18 @@ frase.rstrip() = remove TODOS os espaços inuteis à DIREITA (no fim) Depois da 
 frase.lstrip() = remove TODOS os espaços inuteis à ESQUERDA (no INICIO) da string por conta do "L" antes do strip
 
 
+# IF e ELSE
+
+n1 = float(input('Digite a primeira nota:'))
+n2 = float(input('Digite a segunda nota: '))
+m = (n1+n2)/2
+print('A sua media foi {}'.format(m))
+if m>=6:
+    print('Sua nota foi boa! PARABÉNS!!!')
+else:
+    print('Sua média não esta boa! Estude MAIS!')
+
+
 
 
 
