@@ -34,18 +34,19 @@ print('Aguarde Computador esta pensando...')
 sleep(1)
 print('Será que vc vai Ganhar???')
 sleep(1)
-
 print('3')
 sleep(1)
 print('2')
 sleep(1)
 print('1')
 sleep(1)
-
-print('\nO computador escolheu o número =={}=='.format(computador)) # jogador tenta adivinhar
+print('-=-'*15)
+print('O computador escolheu o número =={}=='.format(computador)) # jogador tenta adivinhar
 if jogador == computador:
     print('Parabéns, você GANHOU!')
+    print('-=-' * 15)
 else:
     print('Que pena, você PERDEU!')
+    print('-=-'*15)
 
 
