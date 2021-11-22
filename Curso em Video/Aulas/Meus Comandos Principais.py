@@ -38,6 +38,12 @@ Ordem de precedencia
 3 = * / // % ou na ordem que aparecer primeiro
 4 = + -
 
+# (Aula 6 Tipos primitivos de saida de dados)
+int = (Numeros inteiros) Ex. 7 -4 0 9875
+floot = (ponto flutuante ou Real por causa do ponto pois não se usa a virgula no python) 4.5 0.076 -15.223 7.0
+bool = (Bloeano verdadeiro ou Falto) True False
+str = (String, frase ou palavras entre aspas simples ou duplas)'olá' '' ""
+
 
 #Alinhamento
 nome = input('Qual é o seu nome? ')
@@ -152,6 +158,7 @@ frase.lstrip() = remove TODOS os espaços inuteis à ESQUERDA (no INICIO) da str
 
 
 # IF e ELSE
+
 
 n1 = float(input('Digite a primeira nota:'))
 n2 = float(input('Digite a segunda nota: '))

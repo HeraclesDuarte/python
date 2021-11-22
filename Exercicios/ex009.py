@@ -1,4 +1,5 @@
-print( ' //// Desafio 9 ///// \n\n Faça um Programa que Leia um número inteiro qualquer\n e mostre na tela a sua tabuada')
+print( ' //// Desafio 9 ///// \n\n Faça um Programa que Leia um número inteiro qualquer'
+       '\n e mostre na tela a sua tabuada')
 
 numero = int(input('\nDigite um numero para a Tabuada: '))
 m1 = int(numero)*1
