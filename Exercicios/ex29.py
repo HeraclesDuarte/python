@@ -14,6 +14,7 @@ else:
     print('-=-' * 20)
 
 # JEITO DO PROFESSOR sem Else usando condição simples
+# VER AULA BONUS DE CORES
 
 velocidade = float(input('Qual a velocidade do carro: '))
 if velocidade > 80:
