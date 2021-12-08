@@ -11,9 +11,9 @@
 # print('O maior numero digitado foi: {} '.format(max(lista)))
 # print('O menor numero digitado foi: {} '.format(min(lista)))
 
-# # MEU JEITO 2
-#
-# primeiro = int(input('Primeiro valor: '))
+##MEU JEITO 2
+
+# primeiro: int = int(input('Primeiro valor: '))
 # segundo = int(input('Segundo valor : '))
 # terceiro = int(input('Terceiro valor: '))
 #
@@ -25,7 +25,7 @@
 # if (terceiro > maior):
 #     maior = terceiro
 #
-# print('O Maior Valor é{}: '.format(maior))
+# print('O Maior Valor é {}: '.format(maior))
 #
 # # Achando o menor número
 # menor = primeiro
@@ -35,47 +35,51 @@
 # if (terceiro < menor):
 #     menor = terceiro
 #
-# print('O Menor valor é{}: '.format(menor))
+# print('O Menor valor é {}: '.format(menor))
 
-# #JEITO 1 PROFESSOR
+# # JEITO 1 PROFESSOR
 #
 # a = int(input('Primeiro valor: '))
 # b = int(input('Segundo valor : '))
 # c = int(input('Terceiro valor: '))
-# if a<b and a<c:
+#
+# if a < b and a < c:
 #     menor = a
-# if b<c and b<a:
+# if b < c and b < a:
 #     menor = b
-# if c<a and c<b:
+# if c < a and c < b:
 #     menor = c
 #
 # print('O Menor valor é: {} '.format(menor))
 #
-# if a>b and a>c:
+# if a > b and a > c:
 #     maior = a
-#
-# if c>a and c>b:
+# if c > a and c > b:
 #     maior = c
-#
-# if b>c and b>a:
+# if b > c and b > a:
 #     maior = b
 # print('O Maior Valor é {} '.format(maior))
 
-# #JEITO 2 PROFESSOR
+#JEITO 2 PROFESSOR
 
 a = int(input('Primeiro valor: '))
 b = int(input('Segundo valor : '))
 c = int(input('Terceiro valor: '))
+
 menor = a
-if b<a and b<c:
+
+if b < a and b < c:
     menor = b
-if c<b and c<a:
+if c < b and c < a:
     menor = c
+
 print('O Menor valor é: {} '.format(menor))
 
 maior = a
-if b>a and b>c:
+
+if b > a and b > c:
     maior = b
-if c>b and c>a:
+if c > b and c > a:
     maior = c
+
 print('O Maior valor é: {} '.format(maior))
