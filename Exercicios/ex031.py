@@ -3,22 +3,33 @@ Calcule o preço da passagem, cobrando R$0,50 por Km para viagens de até 200Km
 e R$0,45 parta viagens mais longas.'''
 
 '''Jeito 1'''
-numero = int(input('Digite a quantidade de KM da sua Viagem: '))
-if numero <= 150:
-    print('Preço da Passagem R${:.2f}'.format((numero)*0.50))
-    print(' **** FIM **** ')
-    print('-' * 15)
-else:
-    numero > 150
-    print('Preço da Passagem R${:.2f}'.format((numero) * 0.45))
-    print(' **** FIM **** ')
+# numero = int(input('Digite a quantidade de KM da sua Viagem: '))
+# if numero <= 200:
+#     print('Preço da Passagem R${:.2f}'.format((numero) * 0.50))
+#     print(' **** FIM **** ')
+#     print('-' * 15)
+# else:
+#     print('Preço da Passagem R${:.2f}'.format((numero) * 0.45))
+#     print(' **** FIM **** ')
 
 # '''Jeito 2'''
 # numero = int(input('Digite a quantidade de KM da sua Viagem: '))
-# if numero <= 150:
+# if numero <= 200:
 #     print('Preço da Passagem R${:.2f}'.format((numero)*0.50))
-# if numero > 150:
+# if numero > 200:
 #     print('Preço da Passagem R${:.2f}'.format((numero)*0.45))
+
+
+# Jeito 3
+
+# numero = int(input('Digite a quantidade de KM da sua Viagem: '))
+# if numero <= 200:
+#     passagem = numero * 0.50
+# else:
+#     passagem = numero * 0.45
+# print('Preço da Passagem R${:.2f}'.format((passagem)))
+# print(' **** FIM **** ')
+
 
 # ------------------------------------------------------------------------------------------------
 
